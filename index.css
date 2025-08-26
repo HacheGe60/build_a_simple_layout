@@ -11,19 +11,20 @@ body {
   font-family: 'Montserrat', sans-serif;
   display: grid;
   align-items: center;
-  background: linear-gradient(322deg, rgba(43, 46, 39, 1) 29%, rgba(28, 28, 28, 1) 29%, rgba(28, 28, 28, 1) 40%, rgba(43, 46, 39, 1) 40%, rgba(43, 46, 39, 1) 48%, rgba(28, 28, 28, 1) 48%, rgba(28, 28, 28, 1) 92%, rgba(113, 174, 33, 1) 92%, rgba(113, 174, 33, 1) 100%);
+  background: url('./moon_dark.jpg');
+  background-size: cover;
   color: #fff;
 
 }
 
 .container {
-  width: 40%;
+  width: 50%;
   margin-left: 4em;
   height: 50vh;
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 3em;
   margin: 0;
 }
 
@@ -44,7 +45,7 @@ span:before {
   width: 80%;
   bottom: .1em;
   z-index: -1;
-  background: #71ae21;
+  background: #e88a62;
 
 }
 
